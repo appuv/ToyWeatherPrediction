@@ -1,0 +1,13 @@
+com.appu.application
+com.appu.application.test
+com.appu.data.loader
+com.appu.data.loader.test
+com.appu.dto
+com.appu.enums
+com.appu.exceptions
+com.appu.model
+com.appu.models.preperation
+com.appu.models.preperation.test
+com.appu.utils
+com.appu.utils.constants
+com.appu.utils.test
