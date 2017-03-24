@@ -5,12 +5,12 @@ Machine Learning model for weather generation using Java and Spark
 The problem was to develop a toy weather predictor which can generate weather conditions for a given location for a given time.
 
 This can be achieved in multiple ways,  
-1. Find out the Fluid Mechanics and Phyics equations for prediction.   
+1. Find out the Fluid Mechanics and Physics equations for prediction.   
 2. Collect historical data and observe the change in weather based on parameters like latitude, time etc..  
 3. ....(probably more)
 
-The first approach is purely a mathematical substitution, whcich may need consideration of large number of parameters (say 40 variables in an equation).  
-The seconed approach is more of solving the problem with some Machine Learning.  
+The first approach is purely a mathematical substitution, which may need consideration of large number of parameters (say 40 variables in an equation).  
+The second approach is more of solving the problem with some Machine Learning.  
 
 
 #### The ML approach
