@@ -28,7 +28,7 @@ Here I have used [spark.mllib](https://spark.apache.org/docs/1.6.0/mllib-guide.h
 
 ## Prerequisite
 
-[Java 1.7]{https://java.com/en/download/} and [Apache Spark 1.6.0]{https://spark.apache.org/releases/spark-release-1-6-0.html} must be installed in the system.
+[Java 1.7](https://java.com/en/download/) and [Apache Spark 1.6.0](https://spark.apache.org/releases/spark-release-1-6-0.html) must be installed in the system.
 
 ## Getting Started
 To run the application, 
@@ -59,7 +59,7 @@ eg: spark-submit --class com.appu.models.preperation.ModelEvaluators ToyWeatherP
 To Predict Weather
 ```
 spark-submit --class com.appu.application.ToyWeatherPredictor <jarlocation> --lat <latitiude> --long <longitude> --ele <elevation> --time <unixTimeStamp>  --out <outputLocation>
-spark-submit --class com.appu.application.ToyWeatherPredictor ToyWeatherPrediction-0.0.1-SNAPSHOT.jar --lat -33.8688197 --long 151.2092955 --ele 24.5399284363 --time 1490147427  --out /resuts/prediction.txt
+eg: spark-submit --class com.appu.application.ToyWeatherPredictor ToyWeatherPrediction-0.0.1-SNAPSHOT.jar --lat -33.8688197 --long 151.2092955 --ele 24.5399284363 --time 1490147427  --out /resuts/prediction.txt
 ```
 
 
