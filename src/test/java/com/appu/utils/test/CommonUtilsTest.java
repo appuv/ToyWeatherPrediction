@@ -87,7 +87,7 @@ public class CommonUtilsTest {
 		calendar = new GregorianCalendar();
 		calendar.setTime(date);
 		sampOutput="TEST";
-		sampleLocation="/tmp/test.txt";
+		sampleLocation="target/test.txt";
 		logger.info("Loaded datas for testing com.appu.utils.CommonUtils");
 
 	}

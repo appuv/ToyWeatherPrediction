@@ -6,6 +6,7 @@ import org.apache.spark.mllib.regression.LabeledPoint;
 import org.apache.spark.mllib.regression.LinearRegressionModel;
 import org.apache.spark.mllib.regression.LinearRegressionWithSGD;
 
+
 import com.appu.exceptions.ToyWeatherPredictorException;
 
 /**
@@ -118,7 +119,10 @@ public class ToyWeatherLinearRegression implements ToyWeatherAbstractModel {
 	 */
 	@Override
 	public void trainModel(JavaRDD<LabeledPoint> trainingData) throws ToyWeatherPredictorException {
-		model = LinearRegressionWithSGD.train(JavaRDD.toRDD(trainingData), numIterations, stepSize);
+		LinearRegressionWithSGD linSGDImpl = new LinearRegressionWithSGD(stepSize,numIterations,trainSize,1.2);
+		linSGDImpl.run(JavaRDD.toRDD(trainingData));
+		//model = linSGDImpl.run(JavaRDD.toRDD(trainingData), numIterations, stepSize);
+
 
 	}
 

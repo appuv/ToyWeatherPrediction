@@ -5,17 +5,21 @@
 	<artifactId>ToyWeatherPrediction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<junit.version>4.12</junit.version>
-		<java.version>1.7</java.version>
-		<spark.version>1.6.0</spark.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<junit.version>4.13.2</junit.version>
+		<java.version>1.8</java.version>
+		<spark.version>3.1.2</spark.version>
 		<opencsv.version>2.3</opencsv.version>
 		<jcommander.version>1.48</jcommander.version>
-		<jacoco.version>0.7.9</jacoco.version>
+		<jacoco.version>0.8.5</jacoco.version>
+		<maven-shader.version>3.2.4</maven-shader.version>
+		<maven-compiler.version>3.5.1</maven-compiler.version>
 	</properties>
 	<repositories>
 		<repository>
 			<id>cloudera</id>
-			<url>http://repository.cloudera.com/artifactory/cloudera-repos/</url>
+			<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -28,7 +32,7 @@
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib_2.10 -->
 		<dependency>
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-mllib_2.10</artifactId>
+			<artifactId>spark-mllib_2.12</artifactId>
 			<version>${spark.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/net.sf.opencsv/opencsv/2.3 -->
@@ -55,7 +59,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.7.4.201502262128</version>
+				<version>${jacoco.version}</version>
 				<configuration>
 					<output>file</output>
 					<append>true</append>
@@ -79,16 +83,16 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5.1</version>
+				<version>${maven-compiler.version}</version>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
-				<version>2.3</version>
+				<version>${maven-shader.version}</version>
 				<executions>
 					<execution>
 						<phase>package</phase>

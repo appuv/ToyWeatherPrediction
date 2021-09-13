@@ -23,16 +23,17 @@ Prediction of weather includes prediction of temperature,pressure,humidity and w
 
 As the prediction is of a continuous value for humidity, pressure and temperature the simplest model to try out was **Linear Regression**. For the condition **Decision Tree Classifier** seems to be the simple model.
 
-Here I have used [spark.mllib](https://spark.apache.org/docs/1.6.0/mllib-guide.html) library for the linear regression and decision tree classifier. Spark Provides support of big data frameworks, which would help production level deployment
+Here I have used [spark.mllib](https://spark.apache.org/mllib/) library for the linear regression and decision tree classifier. Spark Provides support of big data frameworks, which would help production level deployment
 
 
 ## Prerequisite
 
-[Java 1.7](https://java.com/en/download/) and [Apache Spark 1.6.0](https://spark.apache.org/releases/spark-release-1-6-0.html) must be installed in the system.
-
+1. [Java 1.8](https://www.azul.com/downloads/?version=java-11-lts&package=jdk)
+2. [Apache Spark 3.1.2](https://www.apache.org/dyn/closer.lua/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz)
+3. [Maven](https://maven.apache.org/)
 ## Getting Started
 To run the application, 
-Change PopertyFile **ml.properties** accordingly
+Change **ml.properties** accordingly
 
 Build the maven project
 
