@@ -1,7 +1,7 @@
 # ToyWeatherPredictor
 Machine Learning model for weather generation using Java and Spark
 
-[![CodeQL](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml) [![Java CI with Maven](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml)
+[![CodeQL](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml) [![Java CI with Maven](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml) [![All JDKs on all OSs](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/jacoco.yml/badge.svg)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/jacoco.yml)
 
 
 ## Background
