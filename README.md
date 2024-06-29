@@ -1,6 +1,10 @@
 # ToyWeatherPredictor
 Machine Learning model for weather generation using Java and Spark
 
+![Maven Package](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![CodeQL](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
+
 ## Background
 The problem was to develop a toy weather predictor which can generate weather conditions for a given location for a given time.
 
