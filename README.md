@@ -1,8 +1,7 @@
 # ToyWeatherPredictor
 Machine Learning model for weather generation using Java and Spark
 
-![Maven Package](/.github/workflows/maven-publish.yml/badge.svg)
-![CodeQL](.github/workflows/codeql-analysis.yml/badge.svg)
+[![Java CI with Maven](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml)
 
 
 ## Background
