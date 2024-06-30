@@ -63,7 +63,13 @@
 				<configuration>
 					<output>file</output>
 					<append>true</append>
+					<excludes>
+						<exclude>com/appu/utils/constants/*</exclude>
+						<exclude>com/appu/enum/*</exclude>
+						<exclude>com/appu/dto/*</exclude>						
+					</excludes>
 				</configuration>
+				
 				<executions>
 					<execution>
 						<id>jacoco-initialize</id>
