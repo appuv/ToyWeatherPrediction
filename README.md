@@ -1,7 +1,7 @@
 # ToyWeatherPredictor
 Machine Learning model for weather generation using Java and Spark
 
-[![CodeQL](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml) [![Java CI with Maven](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml) 
+[![CodeQL](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/codeql-analysis.yml) [![Java CI with Maven](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/appuv/ToyWeatherPrediction/actions/workflows/maven.yml) [![License](https://img.shields.io/github/license/appuv/ToyWeatherPrediction)](https://github.com/appuv/ToyWeatherPrediction/blob/main/LICENSE) [![GitHub top language](https://img.shields.io/github/languages/top/appuv/ToyWeatherPrediction)]([https://github.com/appuv/ToyWeatherPrediction](https://img.shields.io/github/languages/top/appuv/ToyWeatherPrediction))
 
 
 ## Background
