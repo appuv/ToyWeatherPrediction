@@ -11,7 +11,7 @@ jobs:
         with:
           java-version: 18
       - name: Install dependencies, run tests, and collect coverage
-        run:  mvn -B package --file pom.xml
+        run:  mvn clean install --file pom.xml
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
         with:
